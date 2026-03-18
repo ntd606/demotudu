@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dịch vụ - Tudu Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; }
+        h1, h2, h3, .serif { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800">
+
+    <nav class="flex justify-between items-center px-10 py-6 bg-white/80 backdrop-blur-md sticky top-0 z-50">
+        <div class="text-2xl font-bold tracking-widest uppercase">Tudu Studio</div>
+        <ul class="hidden md:flex space-x-8 uppercase text-xs tracking-widest font-semibold">
+            <li><a href="index.html" class="hover:text-amber-600 transition">Trang chủ</a> [cite: 3]</li>
+            <li><a href="portfolio.html" class="hover:text-amber-600 transition">Bộ sưu tập</a> [cite: 3]</li>
+            <li><a href="services.html" class="text-amber-600">Dịch vụ</a> [cite: 3]</li>
+            <li><a href="contact.html" class="hover:text-amber-600 transition">Liên hệ</a> [cite: 4]</li>
+        </ul>
+        <button class="border border-stone-800 px-6 py-2 text-xs uppercase tracking-tighter hover:bg-stone-800 hover:text-white transition">Đặt lịch ngay</button>
+    </nav>
+
+    <section class="py-20 bg-stone-100 text-center">
+        <span class="text-amber-600 uppercase tracking-[0.3em] text-sm italic">Bảng giá & Dịch vụ</span>
+        <h1 class="text-5xl mt-4 serif">Gói Dịch Vụ Của Chúng Tôi</h1>
+        <p class="max-w-2xl mx-auto mt-6 text-stone-500 leading-relaxed">
+            Chúng tôi cung cấp các giải pháp hình ảnh đa dạng, từ ảnh cưới nghệ thuật đến ảnh phóng sự, giúp bạn lưu giữ trọn vẹn từng cung bậc cảm xúc.
+        </p>
+    </section>
+
+    <section class="max-w-7xl mx-auto py-20 px-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            
+            <div class="bg-white border border-stone-200 p-10 flex flex-col items-center text-center hover:shadow-xl transition duration-500">
+                <div class="w-16 h-16 mb-6 flex items-center justify-center bg-stone-50 rounded-full text-amber-600">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path></svg>
+                </div>
+                <h3 class="text-2xl mb-4 serif">Pre-Wedding</h3>
+                <p class="text-stone-400 text-sm mb-6 uppercase tracking-widest">Từ 8.000.000đ</p>
+                <ul class="text-stone-500 text-sm space-y-3 mb-10 flex-grow">
+                    <li>Chụp ngoại cảnh hoặc Studio</li>
+                    <li>Trang điểm & Làm tóc</li>
+                    <li>2 Váy cưới & 2 Vest</li>
+                    <li>Album Photobook cao cấp</li>
+                    <li>Ảnh cổng ép gỗ 60x90</li>
+                </ul>
+                <a href="contact.html" class="text-xs uppercase font-bold tracking-widest border-b border-stone-800 pb-1 hover:text-amber-600 hover:border-amber-600 transition">Tìm hiểu thêm</a>
+            </div>
+
+            <div class="bg-stone-900 text-white p-10 flex flex-col items-center text-center transform md:-translate-y-6 shadow-2xl relative">
+                <span class="bg-amber-600 text-[10px] px-3 py-1 uppercase tracking-widest mb-4">Phổ biến nhất</span>
+                <div class="w-16 h-16 mb-6 flex items-center justify-center bg-stone-800 rounded-full text-amber-500">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                </div>
+                <h3 class="text-2xl mb-4 serif">Wedding Day</h3>
+                <p class="text-stone-400 text-sm mb-6 uppercase tracking-widest">Từ 12.000.000đ</p>
+                <ul class="text-stone-300 text-sm space-y-3 mb-10 flex-grow">
+                    <li>Chụp phóng sự Lễ & Tiệc</li>
+                    <li>2 Nhiếp ảnh gia chính</li>
+                    <li>Toàn bộ file gốc chỉnh màu</li>
+                    <li>Slideshow chiếu tại tiệc</li>
+                    <li>Hộp gỗ đựng ảnh kỷ niệm</li>
+                </ul>
+                <a href="contact.html" class="text-xs uppercase font-bold tracking-widest border-b border-white pb-1 hover:text-amber-500 hover:border-amber-50 transition">Đặt lịch ngay</a>
+            </div>
+
+            <div class="bg-white border border-stone-200 p-10 flex flex-col items-center text-center hover:shadow-xl transition duration-500">
+                <div class="w-16 h-16 mb-6 flex items-center justify-center bg-stone-50 rounded-full text-amber-600">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+                <h3 class="text-2xl mb-4 serif">Anniversary</h3>
+                <p class="text-stone-400 text-sm mb-6 uppercase tracking-widest">Từ 3.500.000đ</p>
+                <ul class="text-stone-500 text-sm space-y-3 mb-10 flex-grow">
+                    <li>Chụp kỷ niệm gia đình/đôi</li>
+                    <li>Chụp tại Studio/Nội thành</li>
+                    <li>Trang điểm chuyên nghiệp</li>
+                    <li>15 Ảnh chỉnh sửa chuyên sâu</li>
+                    <li>Tặng kèm khung ảnh để bàn</li>
+                </ul>
+                <a href="contact.html" class="text-xs uppercase font-bold tracking-widest border-b border-stone-800 pb-1 hover:text-amber-600 hover:border-amber-600 transition">Tìm hiểu thêm</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-stone-900 text-stone-400 py-16 px-10 text-center">
+        <div class="text-2xl text-white font-bold mb-6 tracking-widest uppercase">Tudu Studio</div>
+        <p class="mb-4">123 Đường Tình Yêu, Quận 1, TP. Hồ Chí Minh</p> [cite: 12]
+        <p class="mb-8">Hotline: 0900 123 456 | Email: hello@tudu.com</p> [cite: 13]
+        <div class="flex justify-center space-x-6">
+            <a href="#" class="hover:text-white transition">Facebook</a>
+            <a href="#" class="hover:text-white transition">Instagram</a>
+            <a href="#" class="hover:text-white transition">Pinterest</a>
+        </div>
+        <div class="mt-12 text-[10px] uppercase tracking-widest border-t border-stone-800 pt-8">
+            &copy; 2026 Tudu Studio. All rights reserved. 
+        </div>
+    </footer>
+
+</body>
+</html>
